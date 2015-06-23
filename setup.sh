@@ -10,6 +10,8 @@ echo "Name for git:"
 read username
 git config --global user.email $email
 git config --global user.name $username
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'
 
 mkdir -p ~/.vim/colors
 
