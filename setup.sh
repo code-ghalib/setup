@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # packages
-sudo apt-get install build-essential git vim-gtk wget curl
+sudo apt-get install build-essential git vim-gtk wget curl haskell-platform clang ocaml ocaml-doc ocaml-findlib ocaml-native-compilers opam
 
 # setup
 echo "Email for git:"
